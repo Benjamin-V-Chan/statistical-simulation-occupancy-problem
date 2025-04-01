@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 
 def summarize_results(input_path, output_path):
     df = pd.read_csv(input_path)
